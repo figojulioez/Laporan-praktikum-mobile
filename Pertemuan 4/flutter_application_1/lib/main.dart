@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
      // Komponen utama widget tree
     return MaterialApp(
        // Untuk Area yang melindungi widget child miliknya dari poni kamera
-      home: SafeArea(child: 
+      home:  
         // berfungsi menjadi wadah komponen material design
         Scaffold(
           backgroundColor: Colors.blueAccent,
@@ -53,6 +53,7 @@ class MyApp extends StatelessWidget {
                 color: Colors.teal.shade100,
               ),
             ),
+            
             // Menyusun widget dalam bentuk horizontal
             Container(
               padding: EdgeInsets.all(10),
@@ -95,7 +96,6 @@ class MyApp extends StatelessWidget {
               ],),
             )
           ],)
-        )
       )
     );
   }
